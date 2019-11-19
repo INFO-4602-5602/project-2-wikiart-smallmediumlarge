@@ -4,9 +4,11 @@
 Projects may be submitted up to 3 days late, with a 10% penalty per day
 
 <h2>Team SmallMediumLarge </h2>
-* Paige Stockebrand: role
-* Julia Merten: role
-* Lulu Liu: role
+<ul>
+  <li>**Paige Stockebrand**: role</li>
+  <li>**Julia Merten**: role</li>
+  <li>**Lulu Liu**: role</li>
+</ul>
 <br/>
 
 <h2>Storytelling with Data</h2>
