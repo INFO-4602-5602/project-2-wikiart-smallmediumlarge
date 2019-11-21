@@ -13,6 +13,8 @@ Projects may be submitted up to 3 days late, with a 10% penalty per day
 
 <h2>Storytelling with Data</h2>
 
+<a href="https://info-4602-5602.github.io/project-2-wikiart-smallmediumlarge/" target="_blank">Art History (or a different title)</a>
+
 Apparently this option doesn't require a README???
 
 <ul>
