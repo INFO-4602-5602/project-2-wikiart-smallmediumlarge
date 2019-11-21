@@ -1,0 +1,63 @@
+body {
+	font-family: 'Ibarra Real Nova', serif;	
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	text-align: center;
+	width: 75%;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+	font-size: 3em;
+	text-transform: lowercase;
+	margin: 2em auto;
+}
+
+:root {
+	--main: red;
+	--renaissance: orange;
+	--post-renaissance: green;
+	--modern: blue;
+	--contemporary: purple;
+}
+
+.section {
+	/*border: 1px solid red;*/
+
+	vertical-align: middle;
+	margin: 11em auto;
+}
+
+.visContainer {
+	/*border: 1px solid blue;*/
+
+	display: flex;
+	justify-content: space-around;
+	vertical-align: middle;
+	margin: auto;
+}
+
+.viz1, .viz2, .viz3, .viz4 {
+	/*border: 1px solid green;*/
+
+	width: 20%;
+}
+
+.vizImg {
+	/*border: 1px solid orange;*/
+
+	width: 100%;
+}
+
+.vizDesc {
+	/*border: 1px solid orange;*/
+
+	width: 100%;
+	text-align: justify;
+}
