@@ -34,6 +34,18 @@ h1 {
 	margin: 11em auto;
 }
 
+.section p {
+	/*border: 1px solid red;*/
+
+	width: 75%;
+	text-align: justify;
+	margin: auto;
+}
+
+.section a, a:visited {
+	text-decoration: none;
+}
+
 .visContainer {
 	/*border: 1px solid blue;*/
 
@@ -60,4 +72,13 @@ h1 {
 
 	width: 100%;
 	text-align: justify;
+}
+
+#main p {
+	text-align: center;
+}
+
+#teamMems p {
+ 	text-align: center;
+ 	margin-bottom: 1em;
 }
