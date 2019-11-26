@@ -58,18 +58,22 @@ h1 {
 
 .viz1, .viz2, .viz3, .viz4 {
 	/*border: 1px solid green;*/
-
-	width: 24%;
+	box-sizing: border-box;
+	margin: 10px;
+	width: 25%;
   	transition: 1s;
 }
+
 .viz1:hover, .viz2:hover, .viz3:hover, .viz4:hover {
 	/*border: 1px solid green;*/
 
 	width: 75%;
   	transition: 1s;
+  	transition-delay: 0.25s;
 }
 
 .vizImg {
+	box-sizing: border-box;
 	border: 1px solid red;
 
 	width: 100%;
