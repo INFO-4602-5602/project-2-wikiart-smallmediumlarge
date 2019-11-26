@@ -6,7 +6,7 @@ body {
 
 main {
 	text-align: center;
-	width: 75%;
+	width: 85%;
 	margin: auto;
 	box-sizing: border-box;
 }
@@ -52,17 +52,18 @@ h1 {
 	display: flex;
 	justify-content: space-around;
 	vertical-align: middle;
+	align-items: center;
 	margin: auto;
 }
 
 .viz1, .viz2, .viz3, .viz4 {
 	/*border: 1px solid green;*/
 
-	width: 20%;
+	width: 24%;
 }
 
 .vizImg {
-	/*border: 1px solid orange;*/
+	border: 1px solid red;
 
 	width: 100%;
 }
