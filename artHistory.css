@@ -71,6 +71,10 @@ h2 {
   	transition: 1s;
 }
 
+.viz3 {
+	width: 66%;
+}
+
 .viz1:hover, .viz2:hover, .viz3:hover, .viz4:hover {
 	box-sizing: border-box;
 	/*border: 1px solid green;*/
@@ -78,6 +82,10 @@ h2 {
 	width: 75%;
   	transition: 1s;
   	transition-delay: 0.25s;
+}
+
+.viz3:hover {
+	width: 100%;
 }
 
 .vizImg {
