@@ -16,7 +16,14 @@ h1 {
 	font-weight: normal;
 	font-size: 3em;
 	text-transform: lowercase;
-	margin: 2em auto;
+	margin: 1em auto;
+}
+
+h2 {
+	font-weight: normal;
+	color: #888;
+	margin: 3em 0em;
+	font-size: 2em;
 }
 
 :root {
@@ -35,11 +42,11 @@ h1 {
 }
 
 .section p {
-	/*border: 1px solid red;*/
 
-	width: 75%;
+	width: 70%;
 	text-align: justify;
 	margin: auto;
+	margin-bottom: 1.5em;
 }
 
 .section a, a:visited {
@@ -50,7 +57,7 @@ h1 {
 	/*border: 1px solid blue;*/
 
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	vertical-align: middle;
 	align-items: center;
 	margin: auto;
@@ -59,12 +66,13 @@ h1 {
 .viz1, .viz2, .viz3, .viz4 {
 	/*border: 1px solid green;*/
 	box-sizing: border-box;
-	margin: 10px;
-	width: 25%;
+	margin: 5px;
+	width: 45%;
   	transition: 1s;
 }
 
 .viz1:hover, .viz2:hover, .viz3:hover, .viz4:hover {
+	box-sizing: border-box;
 	/*border: 1px solid green;*/
 
 	width: 75%;
@@ -74,7 +82,7 @@ h1 {
 
 .vizImg {
 	box-sizing: border-box;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 
 	width: 100%;
 }
@@ -87,10 +95,14 @@ h1 {
 }
 
 #main p {
-	text-align: center;
+	text-align: justify;
 }
 
 #teamMems p {
  	text-align: center;
  	margin-bottom: 1em;
+}
+
+.styleHeader {
+	margin: 0;
 }
