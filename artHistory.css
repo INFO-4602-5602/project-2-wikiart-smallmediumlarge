@@ -85,6 +85,7 @@ h2 {
 	/*border: 1px solid red;*/
 
 	width: 100%;
+	box-shadow: 3px 3px 5px #ddd;
 }
 
 .vizDesc {
