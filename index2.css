@@ -1,0 +1,97 @@
+body {
+	font-family: 'Ibarra Real Nova', serif;	
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	text-align: center;
+	width: 85%;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+	font-size: 3em;
+	text-transform: lowercase;
+	margin: 2em auto;
+}
+
+:root {
+	--main: red;
+	--renaissance: orange;
+	--post-renaissance: green;
+	--modern: blue;
+	--contemporary: purple;
+}
+
+.section {
+	/*border: 1px solid red;*/
+
+	vertical-align: middle;
+	margin: 11em auto;
+}
+
+.section p {
+	/*border: 1px solid red;*/
+
+	width: 75%;
+	text-align: justify;
+	margin: auto;
+}
+
+.section a, a:visited {
+	text-decoration: none;
+}
+
+.visContainer {
+	/*border: 1px solid blue;*/
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	vertical-align: middle;
+	align-items: center;
+	margin: auto;
+}
+
+.viz1, .viz2, .viz3, .viz4 {
+	/*border: 1px solid green;*/
+	box-sizing: border-box;
+	margin: 10px;
+	width: 40%;
+  	transition: 1s;
+}
+
+/*.viz1:hover, .viz2:hover, .viz3:hover, .viz4:hover {
+	border: 1px solid green;
+
+	width: 75%;
+  	transition: 1s;
+  	transition-delay: 0.25s;
+}*/
+
+.vizImg {
+	box-sizing: border-box;
+	border: 1px solid red;
+
+	width: 100%;
+}
+
+.vizDesc {
+	/*border: 1px solid orange;*/
+
+	width: 100%;
+	text-align: justify;
+}
+
+#main p {
+	text-align: center;
+}
+
+#teamMems p {
+ 	text-align: center;
+ 	margin-bottom: 1em;
+}
